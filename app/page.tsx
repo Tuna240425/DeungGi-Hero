@@ -154,8 +154,14 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <ChevronDown className="h-8 w-8 text-white" />
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+          <button 
+            onClick={() => scrollToSection("about")}
+            className="animate-bounce hover:animate-none transition-all duration-300 hover:scale-110 cursor-pointer p-2 rounded-full hover:bg-white/20"
+            aria-label="아래 섹션으로 이동"
+          >
+            <ChevronDown className="h-8 w-8 text-white" />
+          </button>
         </div>
       </section>
 
