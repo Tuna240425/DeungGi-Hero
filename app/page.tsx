@@ -118,7 +118,7 @@ export default function HomePage() {
               고객 맞춤형 법인 및 부동산 등기 서비스를 제공합니다.
             </p>
 
-            // 기존 코드 (115-135줄 부근)
+             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center max-w-2xl mx-auto mb-8">
               <Link href="/corporate" className="w-full sm:w-auto">
                 <Button
