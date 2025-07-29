@@ -118,6 +118,7 @@ export default function HomePage() {
               고객 맞춤형 법인 및 부동산 등기 서비스를 제공합니다.
             </p>
 
+            // 기존 코드 (115-135줄 부근)
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center max-w-2xl mx-auto mb-8">
               <Link href="/corporate" className="w-full sm:w-auto">
                 <Button
@@ -132,8 +133,8 @@ export default function HomePage() {
               <Link href="/real-estate" className="w-full sm:w-auto">
                 <Button
                   size="lg"
-                  variant="outline"
-                  className="w-full sm:w-auto bg-white/10 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg backdrop-blur-sm"
+                  // 이 부분을 수정하세요 - variant="outline" 제거하고 className 변경
+                  className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
                   <Home className="mr-2 h-5 w-5" />
                   부동산등기 바로가기
