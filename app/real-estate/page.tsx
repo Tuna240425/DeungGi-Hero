@@ -175,7 +175,7 @@ export default function RealEstatePage() {
       </header>
 
       {/* Hero Section */}
-      <section className="pt-48 pb-16 bg-gradient-to-br from-green-50 to-blue-100">
+      <section className="pt-56 pb-16 bg-gradient-to-br from-green-50 to-blue-100">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">부동산등기, 복잡하지 않습니다</h1>
